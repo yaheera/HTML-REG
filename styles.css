@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #c9c9c9;
+    align-content: space-around;
+    text-align: center;
+}
+
+.text{
+    margin-bottom: 1vh;
+}
+
+.main{
+    border-width:1px;
+    border-color: #aaaaaa;
+    border-style: solid;
+    border-style: solid;
+    background: #aaaaaa;
+    border-radius: 20px;
+    width: 14vw;
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    text-align: center;
+}
+
+.required input:after{ 
+    content:"*"; 
+}
